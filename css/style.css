@@ -1,3 +1,11 @@
+
+/*  fix for bootstrap row - too wide on mobile */
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
 /*  Navigation styles */
 .nav-link {
     padding-right: 1.5rem!important;
@@ -18,7 +26,9 @@ h2 {
     color: #091f2f;
     text-transform: uppercase;
 }
-.accordion-section .panel-default &gt; .panel-heading {
+
+/* &gt;  removes gray around text when added to the below css class*/
+.accordion-section .panel-default  .panel-heading {
     border: 0;
     background: #f4f4f4;
     padding: 0;
@@ -45,3 +55,9 @@ h2 {
     font-size: 16px;
 }
 /* END FAQs Styles  */
+
+/* Articles Styles  */
+.headline{
+    margin-top: 20px;
+}
+/* END Articles Styles  */
