@@ -1,4 +1,4 @@
-
+/*  Navigation styles */
 .nav-link {
     padding-right: 1.5rem!important;
     padding-left: 1.5rem!important;
@@ -9,4 +9,39 @@
 #navbarNav a:hover {
    color: #e1b12c!important;
 }
-
+/*  End Navigation styles */
+/* FAQs Styles  */
+h2 {
+    font-family: Arial, Verdana;
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #091f2f;
+    text-transform: uppercase;
+}
+.accordion-section .panel-default &gt; .panel-heading {
+    border: 0;
+    background: #f4f4f4;
+    padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 40px;
+    content: "\f106";
+    color: #1f7de2;
+    float: right;
+    margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 16px;
+}
+/* END FAQs Styles  */
