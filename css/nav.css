@@ -1,0 +1,12 @@
+
+.nav-link {
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem!important;
+    font-weight: bold;
+    color:#000!important;
+}
+
+#navbarNav a:hover {
+   color: #e1b12c!important;
+}
+
