@@ -275,9 +275,9 @@ p {
 /* Links
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 a {
-  color: #1EAEDB; }
+  color: #192a56; }
 a:hover {
-  color: #0FA0CE; }
+  color: #cc8e35; }
 
 
 /* Buttons
@@ -476,7 +476,7 @@ input:focus::placeholder { color:#999 !important; }
 	
 	.amount strong {font-size:30px !important; line-height:20px !important; color:#d11f0d; font-weight:bold; text-align:right;}
 	.amount  { line-height:35px; font-size:26px; text-align:right;}
-.show { display:block !important;}
+.disapper { display:block !important;}
 
 .ico {color:#000; text-align:center;  margin-top:0px !important; display:block; margin:0 auto; }
 
