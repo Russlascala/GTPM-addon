@@ -121,6 +121,11 @@ ul#footerNav-ul {
 
 .footer-nav-link {
     color: black;
+    font-weight: bold;
+}
+
+.footer-nav-link:hover{
+    color: #88691b;
 }
 
 #footerNav li::after{
