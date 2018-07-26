@@ -37,7 +37,7 @@ h1 {
     padding-top: 20px;
 }
 
-/* FAQs Styles  */
+/* FAQs Page Styles  */
 h2 {
     font-family: Arial, Verdana;
     font-weight: 800;
@@ -45,6 +45,14 @@ h2 {
     color: #091f2f;
     text-transform: uppercase;
 }
+
+.panel a {
+  color: #192a56; 
+}
+.panel a:hover {
+  color: #cc8e35; 
+}
+
 
 /* &gt;  removes gray around text when added to the below css class*/
 .accordion-section .panel-default  .panel-heading {
@@ -73,10 +81,22 @@ h2 {
 .accordion-section .panel-default .panel-body {
     font-size: 16px;
 }
-/* END FAQs Styles  */
+/* END FAQs Page Styles  */
 
-/* Articles Styles  */
+/* Articles Page Styles  */
 .headline{
     margin-top: 20px;
 }
-/* END Articles Styles  */
+/* END Articles Page Styles  */
+
+/* News Page styles  */
+
+.headline{
+    color: #a78b43;
+}
+.newsBorder {
+    border-color: #e1b12c;
+    border-color: inherit;
+    color: #e1b12c;
+}
+/* End News Page styles  */
