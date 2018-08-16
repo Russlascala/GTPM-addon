@@ -301,15 +301,15 @@ select {
      -moz-appearance: none !important;
           appearance: none !important; }
 		  
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="text"],
-input[type="tel"],
-input[type="url"],
-input[type="password"],
-textarea,
-select {
+#main_form input[type="email"],
+#main_form input[type="number"],
+#main_form input[type="search"],
+#main_form input[type="text"],
+#main_form input[type="tel"],
+#main_form input[type="url"],
+#main_form input[type="password"],
+#main_form textarea,
+#main_form select {
   height: 35px;
   padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
   background-color: #000 !important;

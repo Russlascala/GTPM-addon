@@ -105,6 +105,16 @@ h2 {
 }
 /* End News Page styles  */
 
+/* Sales Page --------------------------------------------NEW---------------------*/ 
+#text-above-form{
+    margin-bottom: 20px;
+}
+
+#text-under-form{
+    margin-top: 30px;
+}
+
+
 /* Footer Navigation link Styles */
 #footerNav {
     text-align: center;
