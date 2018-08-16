@@ -106,6 +106,10 @@ h2 {
 /* End News Page styles  */
 
 /* Sales Page --------------------------------------------NEW---------------------*/ 
+.form-color{
+    background: #fff!important;
+}
+
 #text-above-form{
     margin-bottom: 20px;
 }
